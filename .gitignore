@@ -1,0 +1,37 @@
+# Local settings and credentials
+.local
+*.local
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+/infra/certs/*
+!/infra/certs/README.md
+/infra/staging/
+/infra/backups/
+/infra/deploy/www/.releases/
+/infra/deploy/ctf/appsettings.json
+/infra/deploy/ctf/data/
+
+# Dependencies and generated files
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+*.log
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo

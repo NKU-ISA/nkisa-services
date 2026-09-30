@@ -1,0 +1,6 @@
+{
+  "server": {
+    "host": "server.example.com",
+    "username": "deploy"
+  }
+}
